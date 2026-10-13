@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>My To-do List</h1>
+    <p class="subtitle">จัดการงานของคุณให้ง่ายขึ้น</p>
+
+    <form id="task-form">
+      <input
+        id="task-input"
+        type="text"
+        placeholder="กรอกงานที่ต้องทำ..."
+        required
+      >
+      <button type="submit">เพิ่มงาน</button>
+    </form>
+
+    <p id="message"></p>
+    <ul id="task-list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
